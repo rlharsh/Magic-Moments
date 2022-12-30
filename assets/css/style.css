@@ -26,7 +26,7 @@ body {
 .landing-container {
 	width: 100%;
 	height: 100%;
-	background-color: #B6E2A1;
+	background-color: #937DC2;
 	display: flex;
 	flex-direction:column;
 }
@@ -160,17 +160,18 @@ body {
 }
 
 .logo-container {
-	width: 100%;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	position: absolute;
-	top: -8rem;
 	transition: all .4s;
+	left: 0;
+	width: 100%;
+	margin-top: -16rem;
 }
 
 .logo-image {
-	width: 14rem;
-	margin-right: 1rem;
+	width: 18rem;
 }
 
 .social-media-container {
@@ -190,24 +191,12 @@ body {
 }
 
 .show-logo {
-	top: 1rem;
+	margin-top: -2rem;
 }
 
 .control-dock {
-	margin-top: 2rem;
+	margin-top: 20rem;
 	padding: 2rem;
 	background-color: #FFF;
 	border-radius: 10px 10px 0 0;
-}
-
-.logo-container-headline {
-	margin-top: 4rem;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.header-logo {
-	width: 80%;
 }
