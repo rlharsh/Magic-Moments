@@ -1,200 +1,207 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #FFF;
-    overflow: hidden;
+	font-family: 'Roboto', sans-serif;
+	background-color: #FFF;
+	overflow: hidden;
 }
 
 .page-wrapper {
-    position:absolute;
-    width: 100%;
-    height: 100vh;
-    left: 0;
-    top: 0;
-
-    background-color: #FFC7C7;
-
-    background-image: url('/assets/images/ui/bin-thi-u-aXDj_NiS05o-unsplash.jpg');
-    background-size: cover;
-    background-position: center;
-
-    transition: all 0.4s;
-    border-radius: 0px;
-    overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	left: 0;
+	top: 0;
+	background-color: #FFC7C7;
+	background-image: url('/assets/images/ui/redicul-pict-b6Axvu5VVP0-unsplash.jpg');
+	background-size: cover;
+	background-position: center;
+	transition: all 0.4s;
+	border-radius: 0px;
+	overflow: hidden;
 }
 
 .box-container {
-    margin: 2rem auto;
-    background-color: #FFF;
-    border-radius: 6px;
-    width: 90%;
-    height: 16rem;
-    box-shadow: rgba(40, 40, 40, 0.35) 0px 5px 15px;
+	margin: 2rem auto;
+	background-color: #FFF;
+	border-radius: 6px;
+	width: 90%;
+	height: 16rem;
+	box-shadow: rgba(40, 40, 40, 0.35) 0px 5px 15px;
 }
 
 .landing-container {
-    width: 100%;
-    height: 100vh;
-
+	width: 100%;
+	height: 100vh;
 }
 
 .round-button {
-    cursor: pointer;
-    background-color: #FFF;
-    border-radius: 50%;
-    height: 2.8rem;
-    width: 2.8rem;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    color: #000;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    z-index: 4;
+	cursor: pointer;
+	background-color: #FFF;
+	border-radius: 50%;
+	height: 2.8rem;
+	width: 2.8rem;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	color: #000;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	z-index: 4;
 }
 
 .round-button-two {
-  cursor: pointer;
-  background-color: #FFF;
-  border-radius: 50%;
-  height: 2.8rem;
-  width: 2.8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  color: #000;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  z-index: 4;
+	cursor: pointer;
+	background-color: #FFF;
+	border-radius: 50%;
+	height: 2.8rem;
+	width: 2.8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	color: #000;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	z-index: 4;
 }
 
 .menu-button {
-    top: 1rem;
-    left: 1rem;
+	top: 1rem;
+	left: 1rem;
 }
 
 .people-button {
-    top: 1rem;
-    right: 1rem;
+	top: 1rem;
+	right: 1rem;
 }
 
 .share-button {
-    right: 1rem;
-    bottom: 1rem;
+	right: 1rem;
+	bottom: 1rem;
 }
 
 .settings-button {
-  bottom: 1rem;
-  left: 1rem;
+	bottom: 1rem;
+	left: 1rem;
 }
 
 .checkbox {
-    display: none;
+	display: none;
 }
-  
 
 .nav {
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: -60vw;
-    z-index: 2;
-    opacity: 0;
-    width: 46%;
-    transition: all .4s;
-    background-color: #FFF;
-  }
-  
-  .list {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    list-style: none;
-    text-align: right;
-    width: 100%;
-    padding-left: 1rem;
-  }
-  
-  .item {
-    margin: 1rem;
-    font-size: 1rem;
-    color: black;
-    
-  }
-  
-  .link:link,
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: -60vw;
+	z-index: 2;
+	opacity: 0;
+	width: 46%;
+	transition: all .4s;
+}
+
+.list {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	list-style: none;
+	text-align: right;
+	width: 100%;
+	padding-left: 1rem;
+}
+
+.item {
+	margin: 1rem;
+	font-size: 1rem;
+	color: black;
+}
+
+.link:link,
   .link:visited {
-    display: inline-block;
-    font-size: 3rem;
-    font-weight: 300;
-    padding: 1rem 2rem;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-image: linear-gradient(
+	display: inline-block;
+	font-size: 3rem;
+	font-weight: 300;
+	padding: 1rem 2rem;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-image: linear-gradient(
       120deg,
       transparent 0%,
       transparent 50%,
       white 50%
     );
-    background-size: 220%;
-    transition: all 0.4s;
-  }
-  
-  .link:hover,
-  .link:active {
-    cursor: pointer;
-  }
-  
-  .checkbox:checked ~ .nav {
-    opacity: 1;
-    width: 46%;
-    left: 0;
-  }
-
-  .checkbox:checked ~ .landing-container {
-    visibility: hidden;
-  }
-
-  .hide {
-    top: 25%;
-    left: 49%;
-    width: 48.5%;
-    height: 50vh;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    border-radius: 30px;
-    z-index: 8;
-  }
-
-  .blacking {
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    background: linear-gradient(360deg, rgba(0,0,0,0.4) 0%, rgba(255,255,255,0) 10%);
-  }
-
-  .logo-image {
-    width: 10rem;
-    margin-right: 1rem;
-  }
-
-.social-media-container {
-  width: 100%;
-  position: absolute;
-  bottom: -4em;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  gap: 0.6rem;
-  transition: all .4s;
+	background-size: 220%;
+	transition: all 0.4s;
 }
 
-  .show-social-media {
-    bottom: 1em;
-  }
+.link:hover,
+  .link:active {
+	cursor: pointer;
+}
+
+.checkbox:checked ~ .nav {
+	opacity: 1;
+	width: 46%;
+	left: 0;
+}
+
+.checkbox:checked ~ .landing-container {
+	visibility: hidden;
+}
+
+.hide {
+	top: 25%;
+	left: 49%;
+	width: 48.5%;
+	height: 50vh;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	border-radius: 30px;
+	z-index: 8;
+}
+
+.blacking {
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	background: linear-gradient(360deg, rgba(0,0,0,0.4) 0%, rgba(255,255,255,0) 10%);
+}
+
+.logo-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: -8rem;
+	transition: all .4s;
+}
+
+.logo-image {
+	width: 14rem;
+	margin-right: 1rem;
+}
+
+.social-media-container {
+	width: 100%;
+	position: absolute;
+	bottom: -4em;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	gap: 0.6rem;
+	transition: all .4s;
+	z-index: 4;
+}
+
+.show-social-media {
+	bottom: 1em;
+}
+
+.show-logo {
+	top: 1rem;
+}
 
