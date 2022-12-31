@@ -205,7 +205,7 @@ body {
 
 .social-media-container {
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	bottom: -4em;
 	display: flex;
 	flex-direction: row-reverse;
