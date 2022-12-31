@@ -8,6 +8,9 @@ t.addEventListener('change', () => {
         r.classList.add("show-social-media")
         let s = document.getElementById("logo-container");
         s.classList.add("show-logo")
+        let t = document.getElementById("wrapper");
+        t.classList.add("fullscreen-image")
+
     } else {
         let q = document.getElementById("page-wrapper");
         q.classList.remove("hide");
@@ -15,9 +18,10 @@ t.addEventListener('change', () => {
         r.classList.remove("show-social-media")
         let s = document.getElementById("logo-container");
         s.classList.remove("show-logo")
+        let t = document.getElementById("wrapper");
+        t.classList.remove("fullscreen-image")
     }
 })
-
 
 document.addEventListener("DOMContentLoaded", function(event) {
 
