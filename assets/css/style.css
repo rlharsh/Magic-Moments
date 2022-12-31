@@ -29,12 +29,19 @@ body {
 }
 
 .box-container {
-	margin: 2rem auto;
+	margin-top: 2rem;
+	background-color: rgba(200, 200, 200, 0.3);
+	border-radius: 6px;
+	width: 90%;
+}
+
+.box-container-internal {
+	margin: 0 auto;
+	margin-top: 2rem;
 	background-color: #FFF;
 	border-radius: 6px;
 	width: 90%;
-	height: 16rem;
-	box-shadow: rgba(40, 40, 40, 0.35) 0px 5px 15px;
+	margin-bottom: 1rem;
 }
 
 .landing-container {
@@ -252,7 +259,6 @@ body {
 h1 {
 	font-family: 'Bold-UI', sans-serif;
 	color: rgba(20, 20, 20, 1);
-	margin-top: 2.6rem;
 	font-weight: 700;
 	font-size: 1.6rem;
 }
@@ -266,7 +272,31 @@ h2 {
 
 .box {
   background-color: #937DC280;
-  position: fixed;
+  position: absolute;
   border-radius: 50%;
   z-index: 0;
+}
+
+.content-line {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.content-key {
+	color: rgba(180, 180, 180, 1);
+	font-size: 0.8rem;
+}
+
+.content-value {
+	font-size: 1rem;
+}
+
+.content-value-header {
+	color: #000;
+	font-size: 0.8rem;
 }
