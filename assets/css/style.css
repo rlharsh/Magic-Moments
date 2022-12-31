@@ -8,8 +8,13 @@
 	src: url("/assets/fonts/Montserrat-ExtraLight.ttf");
 }
 
+@font-face {
+	font-family: "Regular-UI";
+	src: url("/assets/fonts/Montserrat-Regular.ttf");
+}
+
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Regular-UI', sans-serif;
 }
 
 .pink {
@@ -42,6 +47,7 @@ body {
 	border-radius: 6px;
 	width: 90%;
 	margin-bottom: 1rem;
+	padding: 0.4rem;
 }
 
 .landing-container {
@@ -289,13 +295,11 @@ h2 {
 
 .content-key {
 	color: rgba(180, 180, 180, 1);
-	font-size: 0.8rem;
+	font-size: 1rem;
 }
 
 .content-value {
 	font-size: 1rem;
-	color: #937DC2;
-	font-weight: 100;
 }
 
 .content-value-header {
