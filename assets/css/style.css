@@ -207,12 +207,14 @@ body {
 }
 
 .user-image-container {
-	width: 100%;
-	height: 40%;
+	height: 140px;
+	width: 140px;
 	background-color: rgba(200, 200, 200, 0.5);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-radius: 50%;
+	margin-top: 2rem;
 }
 
 .user-image {
@@ -222,4 +224,5 @@ body {
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: top;
+	border-radius: 50%;
 }
