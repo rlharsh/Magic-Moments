@@ -207,8 +207,8 @@ body {
 }
 
 .user-image-container {
-	height: 140px;
-	width: 140px;
+	height: 220px;
+	width: 220px;
 	background-color: rgba(200, 200, 200, 0.5);
 	display: flex;
 	justify-content: center;
